@@ -1,2 +1,3 @@
-# docker-jenkins
-Custom image of Jenkins for Docker
+# Jenkins custom image for Docker
+
+
