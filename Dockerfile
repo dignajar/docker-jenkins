@@ -15,6 +15,7 @@ ENV JENKINS_PASS admin
 # Skip initial wizard
 ENV JAVA_OPTS -Djenkins.install.runSetupWizard=false
 
+# Concurrent Jobs and user creation
 COPY executors.groovy /usr/share/jenkins/ref/init.groovy.d/
 COPY user.groovy /usr/share/jenkins/ref/init.groovy.d/
 
